@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <section class="welcome-screen">
+  <div class="typing animate"></div>
+  <button class="enter-btn">Enter Portfolio</button>
+</section>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="yo2.jpg" alt="foto" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Gonzalo Vignolles">Gonzalo Vignolles</h1>
+                    <p class="title">Web Developer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:gonzalosantacruzariel@gmail.com" class="contact-link" title="gonzalosantacruzariel@gmail.com">gonzalosantacruzariel@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+541140651386" class="contact-link">+541140651386</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-cake-candles"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">May 11, 1999</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Buenos Aires, Argentina</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Blog</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Hola, soy Gonzalo, desarrollador backend especializado en Python, con pasión por construir sistemas escalables y bien diseñados. Me gusta trabajar con APIs, automatizar procesos, y explorar cómo la inteligencia artificial puede mejorar la vida real.</p>
+                    <p>Durante los últimos años, combiné formación autodidacta y bootcamps intensivos para dominar herramientas como FastAPI, Django, PostgreSQL, Docker y más. Me muevo con soltura en entornos colaborativos, manejo inglés avanzado (C1), y tengo experiencia trabajando con metodologías ágiles y equipos distribuidos.
+
+                    </p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://cdn-icons-png.flaticon.com/256/1454/1454982.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">Diseño interfaces simples, claras y funcionales, priorizando la usabilidad y la experiencia del usuario. Me gusta que lo visual acompañe al objetivo.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://cdn-icons-png.flaticon.com/512/11096/11096817.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">Desarrollo sitios y aplicaciones con foco en rendimiento, seguridad y lógica backend. Me encargo de que todo funcione bien detrás de escena.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src=https://cdn-icons-png.flaticon.com/512/8345/8345921.png alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Machine Learning</h4>
+                                <p class="service-item-text">
+                                Desarrollo y entreno modelos predictivos en Python con Scikit‑learn y TensorFlow para resolver problemas reales.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2598/2598163.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">La fotografía es un hobby que disfruto mucho. Me ayuda a entrenar la mirada para los detalles y la composición, algo que también aplico en el código.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Skills</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="https://pluspng.com/img-png/nodejs-logo-png--375.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://th.bing.com/th/id/R.072bdf76eeba13533f4344a4e5adb576?rik=81tP7vlVRqeBGg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fPython-PNG-Download-Image.png&ehk=vQBL2Id0K%2fX3J6jRoTYqIs5Mfx5BokNTW7rkOBmQLrA%3d&risl=&pid=ImgRaw&r=0" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://cdn.creazilla.com/icons/3253974/jupyter-icon-sm.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://www.pngmart.com/files/23/Aws-Logo-PNG-Picture.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://images.freeimages.com/vme/images/2/8/284731/postgresql_logo_preview?h=350" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="logo"></a>
+                        </li>
+                    </ul>
+                </section>
+
+            </article>
+            
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                      <div class="icon-box"><i class="fa-solid fa-book"></i></div>
+                      <h3 class="h3">Education</h3>
+                    </div>
+                  
+                    <ol class="timeline-list">
+                      <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">UTN - Facultad Regional Delta</h4>
+                        <span>May 2023 - Dec 2025 (En curso)</span>
+                        <p class="timeline-text">
+                          Tecnicatura en Programación/Sistemas. Formación teórica y práctica en lógica de programación, estructuras de datos, bases de datos, y desarrollo de aplicaciones. Complementado con materias relacionadas a sistemas y tecnología.
+                        </p>
+                      </li>
+                  
+                      <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Global Learning / Fundación Integrar</h4>
+                        <span>Mar 2023</span>
+                        <p class="timeline-text">
+                          Bootcamp Fullstack con enfoque en tecnologías modernas incluyendo .NET Framework. Capacitación intensiva en desarrollo web, trabajo en equipo y metodologías ágiles.
+                        </p>
+                      </li>
+                  
+                      <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Certificación de Inglés</h4>
+                        <span>Estudios realizados durante 6 años</span>
+                        <p class="timeline-text">
+                          Certificado de competencia en inglés con nivel C1. Habilidades avanzadas en comunicación escrita y oral, comprensión lectora y expresión en entornos profesionales y técnicos.
+                        </p>
+                      </li>
+                    </ol>
+                  </section>
+                  
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><i class="fa-solid fa-briefcase"></i></ion-icon></div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                          <h4 class="h4 timeline-item-title">Desarrollador Web Fullstack en Prácticas | Fundación EMPUJAR</h4>
+                          <span>May 2022</span>
+                          <p class="timeline-text">
+                            Participación en proyectos reales desarrollando aplicaciones web, aplicando habilidades en JavaScript, MongoDB y otras tecnologías relevantes.
+                          </p>
+                          <p class="timeline-text">
+                            Experiencia trabajando en entornos colaborativos bajo metodologías ágiles, fortaleciendo la capacidad de resolución de problemas y la adaptación a desafíos técnicos.
+                          </p>
+                          <p class="timeline-text">
+                            Desarrollo de competencias tanto en el aspecto práctico como en la aplicación de buenas prácticas de programación.
+                          </p>
+                        </li>
+                      
+                        <li class="timeline-item">
+                          <h4 class="h4 timeline-item-title">Bootcamp Fullstack | Integrartec</h4>
+                          <span>Mar 2023</span>
+                          <p class="timeline-text">
+                            Formación intensiva en desarrollo Fullstack con enfoque en el stack Node.js y Typescript, incluyendo también PostgreSQL, Astro y otras tecnologías modernas.
+                          </p>
+                          <p class="timeline-text">
+                            Consolidación de fundamentos adquiridos previamente, con un enfoque más profesional en arquitectura de aplicaciones, buenas prácticas y herramientas utilizadas en el entorno laboral actual.
+                          </p>
+                          <p class="timeline-text">
+                            Énfasis en el desarrollo de soluciones escalables y reutilizables, reforzando habilidades clave para proyectos reales en el ámbito del desarrollo web.
+                          </p>
+                        </li>
+                      </ol>
+                      
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">Mis Habilidades</h3>
+                  
+                    <ul class="skills-list content-card">
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5">Python</h5>
+                          <data value="75">75%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                          <div class="skills-progress-fill" style="width: 75%;"></div>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5">Flask</h5>
+                          <data value="60">60%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                          <div class="skills-progress-fill" style="width: 60%;"></div>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5">PostgreSQL</h5>
+                          <data value="70">70%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                          <div class="skills-progress-fill" style="width: 70%;"></div>
+                        </div>
+                      </li>
+                  
+                      <li class="skills-item">
+                        <div class="title-wrapper">
+                          <h5 class="h5">Análisis de Datos | Pandas / NumPy</h5>
+                          <data value="70">70%</data>
+                        </div>
+                        <div class="skills-progress-bg">
+                          <div class="skills-progress-fill" style="width: 70%;"></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  
+            </article>
+
+            <!-- HTML: Portfolio -->
+<article class="portfolio" data-page="portfolio">
+    <header>
+      <h2 class="h2 article-title">Portfolio</h2>
+    </header>
+  
+    <section class="projects">
+      <ul class="filter-list">
+        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+        <li class="filter-item"><button data-filter-btn>Tests</button></li>
+        <li class="filter-item"><button data-filter-btn>Backend y datos</button></li>
+      </ul>
+  
+      <div class="filter-select-box">
+        <button class="filter-select" data-select>
+          <div class="select-value" data-select-value>Select Category</div>
+          <div class="select-icon">
+            <ion-icon name="chevron-down"></ion-icon>
+          </div>
+        </button>
+  
+        <ul class="select-list">
+          <li class="select-item"><button data-select-item>All</button></li>
+          <li class="select-item"><button data-select-item>Tests</button></li>
+          <li class="select-item"><button data-select-item>Backend y datos</button></li>
+        </ul>
+      </div>
+  
+      <ul class="project-list">
+        <li class="project-item active" data-filter-item data-category="backend y datos">
+          <a href="https://github.com/Gozv/TMDB_Movie_database.py.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="data:image/jpeg;base64,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" alt="Movie-database" loading="lazy">
+            </figure>
+            <h3 class="project-title">TMDB Movie Database API</h3>
+            <p class="project-category">Backend y datos</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="backend y datos">
+          <a href="https://github.com/Gozv/Chat-realtime.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://codinginfinite.com/wp-content/uploads/2018/04/Screen-Shot-2018-04-25-at-5.07.20-PM.png" alt="Chat-realtime" loading="lazy">
+            </figure>
+            <h3 class="project-title">Chat Realtime</h3>
+            <p class="project-category">Backend y datos</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="tests">
+          <a href="https://github.com/Gozv/Web-Scrapping-Py.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://www.grepsr.com/wp-content/uploads/2023/07/Creative-1.jpg" alt="Web-Scrapping-Py" loading="lazy">
+            </figure>
+            <h3 class="project-title">Web Scrapping.Py</h3>
+            <p class="project-category">Tests</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="backend y datos">
+          <a href="https://github.com/Gozv/Airflow-proyect-AI.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://miro.medium.com/v2/resize:fit:1074/1*SeHoR5StxnG1S8CXXZ0ccQ.png" alt="Airflow ETL" loading="lazy">
+            </figure>
+            <h3 class="project-title">Airflow ETL</h3>
+            <p class="project-category">Backend y datos</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="tests">
+          <a href="https://github.com/Gozv/unitest_py.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://mattermost.com/wp-content/uploads/2022/04/02_Unit_Testing@2x.webp" alt="Unittest python" loading="lazy">
+            </figure>
+            <h3 class="project-title">Unit-test Python</h3>
+            <p class="project-category">Tests</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="tests">
+            <a href="https://github.com/Gozv/Machine-Learning-Practice.git" target="_blank"
+            rel="noopener noreferrer">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="https://trycore2.b-cdn.net/cms/wp-content/uploads/2020/02/que-es-machine-learning-servicio-implementar-inteligencia-artificial-min.jpg" alt="Machine learning" loading="lazy">
+              </figure>
+              <h3 class="project-title">Machine Learning Tests</h3>
+              <p class="project-category">Tests</p>
+            </a>
+          </li>
+  
+        <li class="project-item active" data-filter-item data-category="tests">
+          <a href="https://github.com/Gozv/mlflow-iris.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://lh4.googleusercontent.com/rwaMzrCLImiQtWVp0g5lcKS_Q82xaizNjHq2B3B0Cj93UL1kMREDOMsVJ-9yExH498z_elQPmiE43yILSxpl-HMmuvbTgacDMUmw4kIsOvowJKqCXHlEQSqEDeGWZsAMM78CJTv4" alt="IRIS MLFLOW" loading="lazy">
+            </figure>
+            <h3 class="project-title">IRIS Metaflow</h3>
+            <p class="project-category">Tests</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="backend y datos">
+          <a href="https://github.com/Gozv/Gestor-de-Password-Seguro-con-Interfaz-Web-y-2FA.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://www.malwarebytes.com/wp-content/uploads/sites/2/2018/09/shutterstock_641960737.jpg" alt="2FA" loading="lazy">
+            </figure>
+            <h3 class="project-title">2FA Autheticator</h3>
+            <p class="project-category">Backend y datos</p>
+          </a>
+        </li>
+  
+        <li class="project-item active" data-filter-item data-category="tests">
+          <a href="https://github.com/Gozv/Sistema_recomendacion_py.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://mlarchive.com/wp-content/uploads/2024/06/New-Project-3-1-1024x607-1024x585-1-1-1-1024x585.png" alt="Sistema_recomendacion" loading="lazy">
+            </figure>
+            <h3 class="project-title">Recommendation system likes/views</h3>
+            <p class="project-category">Tests</p>
+          </a>
+        </li>
+
+        <li class="project-item active" data-filter-item data-category="tests">
+            <a href="https://github.com/Gozv/Data_Analyst_Python.git" target="_blank"
+            rel="noopener noreferrer">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*PMvSWYzafqUVMsmQDsWEPA.png" alt="Data_Analyst_Python" loading="lazy">
+              </figure>
+              <h3 class="project-title">Data Analyst Python</h3>
+              <p class="project-category">Tests</p>
+            </a>
+          </li>
+  
+        <li class="project-item active" data-filter-item data-category="backend y datos">
+          <a href="https://github.com/Gozv/Shorter-URL-py.git" target="_blank"
+          rel="noopener noreferrer">
+            <figure class="project-img">
+              <div class="project-item-icon-box">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+              <img src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/url-shortener.jpg" alt="URL" loading="lazy">
+            </figure>
+            <h3 class="project-title">URL API Shortener</h3>
+            <p class="project-category">Backend y datos</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </article>
+  
+              
+
+            <article class="blog " data-page="blog">
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+                    <ul class="blog-posts-list">
+                        <li class="blog-post-item">
+                            <a href="#">
+                                    <figure class="blog-banner-box">
+                                        <img src="https://media.licdn.com/dms/image/v2/C4D2DAQF7lAgNaFCl-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1673026834736?e=1747101600&v=beta&t=gZ7vCtpWbsXTOp-RzxljqulTWJGVkNtb2_xjQO36iJY" alt="Design conferences in 2024" loading="lazy">
+                                    </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Jobs</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2018-12-28">Dec 28, 2018</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">De chef a coder: una transición con propósito</h3>
+                                    <p class="blog-text">Me formé como chef en 2017 y trabajé varios años en cocina, pero mi verdadera pasión siempre estuvo frente a una PC. Todo lo que gané cocinando lo invertí en mejorar mi PC, en aprender programación por mi cuenta y en la universidad. Hace años que estudio y me perfecciono, porque disfruto cada línea de código. Hoy estoy listo para dar el siguiente paso y entrar al mundo tech con las mismas ganas y disciplina que me dio la cocina.</p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://definicion.de/wp-content/uploads/2022/10/autodidacta.png" alt="Best fonts every designer" loading="lazy">
+                                </figure>
+
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Studies</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2020-04-10">abril 10, 2020 - actualidad</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Mi camino autodidacta: profundizando en Python, manejo de datos y Machine Learning</h3>
+                                    <p class="blog-text">
+                                        Hace años empecé a meterme de lleno en la programación, con la curiosidad como motor. Hice dos bootcamps, pasé por la universidad y siempre seguí estudiando por mi cuenta.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        Me atrapó el análisis de datos y el Machine Learning: entender la info, procesarla y usarla para resolver problemas reales. Python fue mi gran aliado para eso.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        Hoy sigo formándome y aplicando todo lo aprendido en backend, con ganas de seguir creciendo y aportando soluciones que realmente sumen.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://www.shutterstock.com/shutterstock/photos/1191427996/display_1500/stock-vector-english-open-book-with-language-hand-drawn-doodles-and-lettering-on-white-background-education-1191427996.jpg" alt="English level" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">English Level</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2011-04-20">abril 20, 2011</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">6 años aprendiendo inglés para leer docs y comunicarme con equipos internacionales | C1</h3>
+                                    <p class="blog-text">
+                                        A los 12 años arranqué clases de inglés por hobby en un instituto llamado All English y no paré hasta recibirme luego de 6 años.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        Mi meta siempre fue entender el idioma sin problemas. Porque muchas cosas estaban en ingles, como los videojuegos por ejemplo, antes no tenian traduccion.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        Ahora tengo nivel C1: leo docs, participo de entrevistas técnicas y escribo código en inglés con total confianza. Puedo entender La documentación técnica en inglés y charlar con equipos de todo el mundo sin barreras.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+                                <figure class="blog-banner-box">
+                                    <img src="https://www.omniaclinica.com/wp-content/uploads/2022/07/autoestima-1-300x164.jpg" alt="terapia" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <p class="blog-category">My Self</p>
+                                        <span class="dot"></span>
+                                        <time datetime="2023-11-29">may 29, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Cómo la terapia y la auto-reflexión cambiaron mi forma de trabajar (y de vivir)</h3>
+                                    <p class="blog-text">
+                                        Durante mucho tiempo sentí que nada de lo que hacía era suficiente. Me costaba reconocer mis logros, y aunque me esforzaba al máximo, vivía con una sensación constante de que siempre faltaba algo.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        Empezar terapia fue un antes y un después. Aprendí a valorar mi recorrido, a confiar en lo que sé y a dejar de minimizar lo que consigo. Hoy me siento más tranquilo, con menos ansiedad, más enfocado y con ganas reales de seguir creciendo.
+                                    </p>
+                                
+                                    <p class="blog-text">
+                                        También mejoró mi manera de comunicarme: me expreso mejor, conecto más con la gente, y trabajo con otra energía. No solo soy mejor desarrollador, también soy alguien que disfruta el camino, y eso se nota en cada proyecto que encaro.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289925.8545692945!2d-61.120439806793364!3d-36.36518181750923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbcb7595281d9%3A0x4ad309fcdcf0a144!2sBuenos%20Aires%20Province%2C%20Argentina!5e0!3m2!1sen!2sbd!4v1742991728383!5m2!1sen!2sbd"
+                         width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="https://formspree.io/f/manoodrb" method="POST" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
