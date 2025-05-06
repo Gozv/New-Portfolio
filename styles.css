@@ -1422,7 +1422,11 @@ textarea.form-input {
 
     .sidebar-info { flex-direction: column; }
 
-    .avatar-box img { width: 150px; }
+    .avatar-box img { width: 150px;
+            border-radius: 15%;
+            border: 2px solid white;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+           }
 
     .info-content .name {
         white-space: nowrap;
